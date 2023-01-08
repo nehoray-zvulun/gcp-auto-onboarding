@@ -16,6 +16,6 @@ As a result of the execution the following resources would be created:
 # Installation
 To use the solution run
 ```shell
-terraform apply
+terraform init && terraform apply
 ```
 The process will ask for *billing account id*, *organization's id*, and *folder*(optional) where to create CloudFlow-Onboarding project
