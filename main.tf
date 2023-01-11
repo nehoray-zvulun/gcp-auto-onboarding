@@ -40,7 +40,7 @@ resource "google_organization_iam_custom_role" "cf-role" {
   ]
 }
 
-data "http" "example_post" {
+data "http" "inform_cloudflow" {
   url    = "https://xh814ojgch.execute-api.us-east-1.amazonaws.com/dev/api/cloudflow/onboarding-test/gcp"
   method = "POST"
   # Optional request headers
